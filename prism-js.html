@@ -236,9 +236,9 @@ Specify a language and theme:
         injectTheme: function () {
           var cssFile;
           if (this.theme.length > 0) {
-            cssFile = '../prism/prism-' + this.theme + '.css';
+            cssFile = '../prism/themes/prism-' + this.theme + '.css';
           } else {
-            cssFile = '../prism/prism.css';
+            cssFile = '../prism/themes/prism.css';
           }
           this.injectStylesheet(cssFile);
         },
